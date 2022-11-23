@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- head contains the Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Day 1 Jake Davis</title>
+</head>
+<body style="background:black">
+    <h1 style="color:red">Best Food</h1>
+    
+    <h2 style="color:blue">The <em>Best</em> Ideas of What to Eat</h2>
+    <ul>
+        <li style="color:white"><a href="#pizzaheading">Pizza</a></li>
+        <li style="color:white"><a href="#KFChicken">Fried Chicken</a></li>
+        <li style="color:white">Steak</li>
+    </ul>
+    <h2 id="pizzaheading", style="color:blue">Pizza</h2>
+    <p style="color:white">Pizza is nice</p>
+    <h3 style="color:white">lorem words</h3>
+    <p style="color:white">Lorem ipsum dolor sit amet.</p>
+    
+    <!-- <a> (anchor) forr hyperlinks -->
+    
+    <img src="https://www.readersdigest.ca/wp-content/uploads/2010/12/pepperoni-pizza-scaled.jpg?resize=1024,668" alt="pizza">
+    <p></p>
+    <a target="_blank" href="https://duckduckgo.com/?q=pizza", style="color:white">Pizza online</a>
+
+    <h2 id="KFChicken", style="color:blue">KFC</h2>
+    <ol>
+        <!-- li*3 -->
+        <li style="color:white">5 wings</li> 
+        <li style="color:white">Popcorn chicken</li>
+        <li style="color:white">Chicken bucket</li>
+    </ol>
+    <img src="https://s.yimg.com/ny/api/res/1.2/COvSutezGjm88ROG7AHFKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcxMTtjZj13ZWJw/https://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/abe7661518e7e795cd777f268a762d6e" alt="KFC Fried Chicken">
+    <table border="1", style="color:white">
+        <tr>
+            <th>Shop</th>
+            <th>Specialty</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
+            <td>KFC</td>
+            <td>Chicken</td>
+            <td>8/10</td>
+        </tr>
+        <tr>
+            <td>Dominos</td>
+            <td>Pizza</td>
+            <td>9/10</td>
+        </tr>
+    </table>
+    <!-- INPUT -->
+    <form style="color:white">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName">
+
+        <label for="seconName">Second Name</label>
+        <input type="text" id="seconName" name="secondName">
+    </form>
+    <br>
+    <form action="./confirmation.html", style="color:white">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pWord">Password:</label><br>
+        <input type="password" id="pWord" name="pWord"><br>
+        <input type="submit" value="Login">
+    </form>
+    <!-- RADIO -->
+    <form style="color:white">
+        <p>which food do you prefer?</p>
+        <input type="radio" id="pizzaRadio" name="foodRadio" value="pizza">
+        <label for="pizzaRadio">Pizza</label>
+        <br>
+        <input type="radio" id="chickenRadio" name="foodRadio" value="chicken">
+        <label for="chickenRadio">Chicken</label>
+        <br>
+        <input type="radio" id="steakRadio" name="foodRadio" value="steak">
+        <label for="steakRadio">Steak</label>
+    </form>
+    <!-- CHECKBOXES -->
+    <form style="color:white">
+        <p>Choose the pizza toppings you like:</p>
+        <label for="cheese">Extra cheese</label>
+        <input id="cheese" name="topping" type="checkbox" value="cheese">
+        <br>
+        <label for="pepperoni">Pepperoni</label>
+        <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+        <br>
+        <label for="mixed">mixed</label>
+        <input id="mixed" name="topping" type="checkbox" value="mixed">
+    </form><br>
+    <!-- TEXT AREA -->
+    <form style="color:white">
+        <label for="foodReview">Food Review: </label>
+        <br>
+        <textarea id="foodReview" name="foodReview" rows="5" cols="30">
+        </textarea>
+    </form><br>
+    <!-- DROPDOWN LIST -->
+    <form style="color:white">
+        <label for="dinner">What's for Dinner?</label>
+        <select id="dinner" name="dinner">
+          <option value="pizza">Pizza</option>
+          <option value="steak">Steak</option>
+          <option value="chicken">Chicken</option>
+          <option value="ramen">Ramen</option>
+          <option value="fajitas">Fajitas</option>
+        </select>
+    </form><br>
+    <!-- DATA LIST -->
+    <form style="color:white">
+        <label for="country">Best Country For Food?</label>
+        <input type="text" list="allCountry" id="country" name="country">
+      
+        <datalist id="allCountry">
+          <option value="UK"></option>
+          <option value="Japan"></option>
+          <option value="Spain"></option>
+          <option value="USA"></option>
+          <option value="France"></option>
+          <option value="Italy"></option>  
+        </datalist>
+    </form><br>
+    <!-- FILE UPLOAD -->
+    <h2 style="color:white">Upload a pic of your fav food!</h2>
+    <form style="color:white", action="./confirmation.html">
+        <input type="file" 
+                id="file1" 
+                name="upload">
+        <input type="submit" value="Upload"><br>
+    </form><br>
+    <!-- FIELD SET -->
+    <form style="color:white">
+        <fieldset>
+            <legend>Article Review</legend>
+            <label for="foodDetails">Rate out of 10:</label>
+            <input type="text" id="foodDetails"><br><br>
+            <label for="email">email:</label>
+            <input type="email" id="email"><br><br>
+        </fieldset>
+    </form>
+</body>
+</html>

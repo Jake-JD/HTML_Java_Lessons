@@ -1,0 +1,27 @@
+#example1
+{
+    color: darkcyan;
+}
+#example1:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+}
+#example2::first-letter
+{
+    color: red;
+}
+#example3::first-line
+{
+    font-weight: bold;
+    color: red;
+}
+#example2::before
+{
+    content: "New ";
+}
+#example2::after
+{
+    content: " After";
+}

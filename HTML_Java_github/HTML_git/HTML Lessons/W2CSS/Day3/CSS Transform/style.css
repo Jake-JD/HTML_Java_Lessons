@@ -1,0 +1,39 @@
+div
+{
+    width: 100px;
+    height: 100px;
+}
+
+.translate
+{
+    background-color: red;
+    /* margin: 200px; */
+    /* - to go left and up, positive num to go right a
+    nd down */
+    /* transform: translate(-100px, -100px); */
+}
+
+.rotate
+{
+    background-color: blue;
+    /* pos for clockwise, - for anti-clockwise */
+    /* transform: rotate(45deg); */
+}
+.scale
+{
+    background-color: orange;
+    /* 1 is default, 2 will double in size, 3 will triple etc */
+    /* transform: scale(2, 2); */
+}
+.skewX
+{
+    background-color: green;
+    /* negative nums can be used as well */
+    transform: skewX(20deg);
+}
+.skewY
+{
+    background-color: violet;
+    /* negative nums can be used as well */
+    transform: skewY(20deg);
+}

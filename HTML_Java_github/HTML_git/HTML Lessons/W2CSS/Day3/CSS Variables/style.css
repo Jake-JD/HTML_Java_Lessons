@@ -1,0 +1,19 @@
+:root
+{
+    --colourOne: #3f84e5;
+    --colourTwo: #b33951;
+    --spacing: 10px;
+}
+
+.one
+{
+    background-color: var(--colourOne);
+    color: var(--colourTwo);
+    margin: var(--spacing);
+}
+.two
+{
+    background-color: var(--colourTwo);
+    /* rediclare variable */
+    --colourTwo: green;
+}

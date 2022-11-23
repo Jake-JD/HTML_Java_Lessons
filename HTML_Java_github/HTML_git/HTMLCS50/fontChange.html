@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Font Size</title>
+</head>
+<body>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, excepturi.
+    </p>
+    <select>
+        <option value="xx-large">xx-large</option>
+        <option value="x-large">x-large</option>
+        <option value="large">large</option>
+        <option selected value="initial">initial</option>
+        <option value="small">small</option>
+        <option value="x-small">x-small</option>
+        <option value="xx-small">xx-small</option>
+    </select>
+    <script>
+        document.querySelector('select').onchange = function() {
+            document.querySelector('body').style.fontSize = this.value; //'this' listens for what changed in the function (essentially document.querySelector)
+        };
+    </script>
+</body>
+</html>

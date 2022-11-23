@@ -1,0 +1,45 @@
+/* Universal Collector */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+/* 
+*
+{
+    color: rebeccapurple;
+    background-color: black;
+} */
+
+
+h1, p
+{
+    color: blueviolet;
+    
+}
+#headingtwo
+{
+    color: black;
+    border: 3px solid black;
+}
+.pgraph
+{
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+}
+#colorName
+{
+    color: #00ffff;
+}
+#hexcode
+{
+    color: #ff0000;
+}
+#hexcode
+{
+    background-color: black;
+    color: #c300ff;
+    margin-left: 30px;
+    padding-left: 50px;
+}
